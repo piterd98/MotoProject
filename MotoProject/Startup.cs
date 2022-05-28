@@ -6,7 +6,7 @@ using Microsoft.Extensions.Hosting;
 
 namespace MotoProject
 {
-    using Models.DB;
+   // using Models.DB;
 
     public class Startup
     {
@@ -21,7 +21,7 @@ namespace MotoProject
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddDbContext<MotoProContext>();
+            //services.AddDbContext<MotoProContext>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
